@@ -1,0 +1,26 @@
+{
+  "name": "minimal-react",
+  "version": "1.0.0",
+  "description": "Minimal React\r =============\r This is a template for building React.js web apps **without browserify, babel, and JSX**.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "scripts": {
+    "build": "npx babel --presets @babel/preset-react,@babel/preset-env src --watch --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahoops/simple_react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahoops/simple_react/issues"
+  },
+  "homepage": "https://github.com/jahoops/simple_react#readme"
+}
