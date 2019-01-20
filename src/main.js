@@ -3,3 +3,7 @@ ReactDOM.render(
   <HelloWorldBanner/>,
   document.getElementById('content')
 )
+ReactDOM.render(
+  <TagsInput/>,
+  document.getElementById('tags')
+)
